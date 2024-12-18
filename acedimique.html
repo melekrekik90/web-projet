@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <title>Parcours académique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+    <div class="video-container">
+        <video autoplay muted loop class="video-background">
+            <source src="media/arriere.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+    </div>
+    <section>
+        <h1 class="nav_barre">Academic Background</h1>
+        <table>
+            <tr>
+                <td class="bio">
+                    <p class="about_me">
+                        In 2021, I earned the baccalaureate's degree with honors in technical sciences after a challenging year
+                        because of the covid epidemic
+                    </p>
+                </td>
+                <td class="image">
+                    <img id="monImage" src="media/bac.jpg" alt="Description de l'image" onload="afficherImageAvecTransition(this.id, 2)">
+                </td>
+            </tr>
+            <tr id="secondRow" >
+                <td class="bio">
+                    <p class="about_me">
+                        I got the national bachelor's degree in computer science with a specialization in big data and data analysis. 
+                        I successfully defended my thesis on May 30, 2024, and received high honors from the jury.
+                    </p>
+                </td>
+                <td class="image">
+                    <img id="monImage2" src="media/license.jpg" alt="Description de l'image" onload="afficherImageAvecTransition(this.id, 2)">
+                </td>
+            </tr>
+        </table>
+    </section>
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

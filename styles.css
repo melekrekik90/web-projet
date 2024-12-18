@@ -1,0 +1,250 @@
+.hidden {
+  display: none;
+}
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.nav_barre {
+ /* background-color: transparent;*/
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  color: #942626;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  text-align: center;
+  
+}
+.nav_barre a {
+  text-decoration: none;
+}
+.nav_barre a:visited {
+  color: #942626;
+}
+
+.about_me {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  color: rgb(152, 164, 236);
+  font-size: 50px;
+  font-family: 'Orbitron', sans-serif;
+  padding: 40px;
+  border-radius: 15px;
+  line-height: 1.5;
+}
+
+table {
+  width: 100%;
+  margin-top: 50px;
+}
+
+td {
+  vertical-align: top;
+}
+
+td.bio {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(20px);
+  border-radius: 15px;
+  padding: 40px;
+  color: rgb(152, 164, 236);
+  font-size: 50px;
+}
+
+td.image {
+  text-align: right;
+  width: 30%;
+}
+
+td.image img {
+  max-width: 100%;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+td.social {
+  width: 10%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  background: linear-gradient(90deg, rgba(29, 78, 216, 1) 0%, rgba(0, 212, 255, 1) 100%);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 20px;
+}
+
+.download-btn:hover {
+  background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(29, 78, 216, 1) 100%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.download-btn:focus {
+  outline: none;
+}
+
+.download-btn:active {
+  background: linear-gradient(90deg, rgba(0, 150, 255, 1) 0%, rgba(29, 78, 216, 1) 100%);
+}
+
+
+
+/*.letter, .space {
+  display: inline-block;
+  opacity: 0;
+  transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.letter.animation, .space.animation {
+  opacity: 1;
+  color: white;
+}
+
+.line-break {
+  display: block;
+}*/
+.video_cell {
+  max-width: 50%;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.center {
+  display: flex;
+  flex-direction: column; /* Pour empiler les éléments verticalement */
+  align-items: center;    /* Centre les éléments horizontalement */
+  justify-content: center; /* Centre les éléments verticalement */
+  text-align: center;     /* Centre le texte à l'intérieur des paragraphes */
+}
+
+.center img {
+  margin: 10px 0; /* Ajoute de l'espace vertical entre les images et les paragraphes */
+}
+.quiz-container {
+
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  color: rgb(152, 164, 236);
+  font-size: 50px;
+  font-family: 'Orbitron', sans-serif;
+  padding: 40px;
+  border-radius: 15px;
+  line-height: 1.5;
+}
+
+
+.question {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.result {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+.skills-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.progress {
+  background: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 30px;
+  width: 100%;
+}
+
+.progress-bar {
+  background: #4caf50;
+  height: 100%;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(105, 101, 101);
+  border-radius: 20px;
+}
+.contact-section {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  color: rgb(152, 164, 236);
+  font-size: 50px;
+  font-family: 'Orbitron', sans-serif;
+  padding: 40px;
+  border-radius: 15px;
+  line-height: 1.5;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+/*label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}*/
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
